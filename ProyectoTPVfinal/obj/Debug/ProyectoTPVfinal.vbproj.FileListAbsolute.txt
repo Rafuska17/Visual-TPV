@@ -1,0 +1,12 @@
+D:\DAM\DAM2\DI\EjeciciosVs\ProyectoTPVfinal\ProyectoTPVfinal\bin\Debug\ProyectoTPVfinal.exe.config
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\bin\Debug\ProyectoTPVfinal.exe.config
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\bin\Debug\ProyectoTPVfinal.exe
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\bin\Debug\ProyectoTPVfinal.pdb
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\bin\Debug\ProyectoTPVfinal.xml
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Login.resources
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.MenuTpv.resources
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Resources.resources
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.vbproj.GenerateResource.Cache
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.exe
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.xml
+D:\DAM\DAM2\DI\TPV\ProyectoTPV\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.pdb
