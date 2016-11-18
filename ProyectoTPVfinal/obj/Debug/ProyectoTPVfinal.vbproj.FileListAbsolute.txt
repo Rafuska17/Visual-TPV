@@ -22,3 +22,7 @@ D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Login
 D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.MenuTpv.resources
 D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Resources.resources
 D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.vbproj.GenerateResource.Cache
+D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.vbprojResolveAssemblyReference.cache
+D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\bin\Debug\LibreriaValidaciones.dll
+D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\bin\Debug\LibreriaValidaciones.pdb
+D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\bin\Debug\LibreriaValidaciones.xml

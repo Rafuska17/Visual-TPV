@@ -23,9 +23,9 @@ Partial Class GestionEmpleados
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.GbEmple = New System.Windows.Forms.GroupBox()
-        Me.CbAlta = New System.Windows.Forms.CheckBox()
-        Me.CbModificar = New System.Windows.Forms.CheckBox()
-        Me.CbBorrar = New System.Windows.Forms.CheckBox()
+        Me.RbBorrar = New System.Windows.Forms.RadioButton()
+        Me.RbModificar = New System.Windows.Forms.RadioButton()
+        Me.RbAlta = New System.Windows.Forms.RadioButton()
         Me.LbCodEmple = New System.Windows.Forms.Label()
         Me.TbCodEmple = New System.Windows.Forms.TextBox()
         Me.LbNombre = New System.Windows.Forms.Label()
@@ -40,55 +40,62 @@ Partial Class GestionEmpleados
         Me.TbTelefono = New System.Windows.Forms.TextBox()
         Me.BtAceptar = New System.Windows.Forms.Button()
         Me.BtSalir = New System.Windows.Forms.Button()
+        Me.LbNombreUser = New System.Windows.Forms.Label()
+        Me.LbContraUser = New System.Windows.Forms.Label()
+        Me.TbNombreUser = New System.Windows.Forms.TextBox()
+        Me.TbContraUser = New System.Windows.Forms.TextBox()
         Me.GbEmple.SuspendLayout()
         Me.SuspendLayout()
         '
         'GbEmple
         '
-        Me.GbEmple.Controls.Add(Me.CbBorrar)
-        Me.GbEmple.Controls.Add(Me.CbModificar)
-        Me.GbEmple.Controls.Add(Me.CbAlta)
+        Me.GbEmple.Controls.Add(Me.RbBorrar)
+        Me.GbEmple.Controls.Add(Me.RbModificar)
+        Me.GbEmple.Controls.Add(Me.RbAlta)
         Me.GbEmple.Location = New System.Drawing.Point(12, 26)
         Me.GbEmple.Name = "GbEmple"
-        Me.GbEmple.Size = New System.Drawing.Size(123, 129)
+        Me.GbEmple.Size = New System.Drawing.Size(541, 63)
         Me.GbEmple.TabIndex = 0
         Me.GbEmple.TabStop = False
         Me.GbEmple.Text = "¿Qué desea hacer?"
         '
-        'CbAlta
+        'RbBorrar
         '
-        Me.CbAlta.AutoSize = True
-        Me.CbAlta.Location = New System.Drawing.Point(7, 30)
-        Me.CbAlta.Name = "CbAlta"
-        Me.CbAlta.Size = New System.Drawing.Size(44, 17)
-        Me.CbAlta.TabIndex = 0
-        Me.CbAlta.Text = "Alta"
-        Me.CbAlta.UseVisualStyleBackColor = True
+        Me.RbBorrar.AutoSize = True
+        Me.RbBorrar.Location = New System.Drawing.Point(432, 33)
+        Me.RbBorrar.Name = "RbBorrar"
+        Me.RbBorrar.Size = New System.Drawing.Size(103, 17)
+        Me.RbBorrar.TabIndex = 2
+        Me.RbBorrar.TabStop = True
+        Me.RbBorrar.Text = "Borrar Empleado"
+        Me.RbBorrar.UseVisualStyleBackColor = True
         '
-        'CbModificar
+        'RbModificar
         '
-        Me.CbModificar.AutoSize = True
-        Me.CbModificar.Location = New System.Drawing.Point(7, 56)
-        Me.CbModificar.Name = "CbModificar"
-        Me.CbModificar.Size = New System.Drawing.Size(69, 17)
-        Me.CbModificar.TabIndex = 1
-        Me.CbModificar.Text = "Modificar"
-        Me.CbModificar.UseVisualStyleBackColor = True
+        Me.RbModificar.AutoSize = True
+        Me.RbModificar.Location = New System.Drawing.Point(202, 33)
+        Me.RbModificar.Name = "RbModificar"
+        Me.RbModificar.Size = New System.Drawing.Size(118, 17)
+        Me.RbModificar.TabIndex = 1
+        Me.RbModificar.TabStop = True
+        Me.RbModificar.Text = "Modificar Empleado"
+        Me.RbModificar.UseVisualStyleBackColor = True
         '
-        'CbBorrar
+        'RbAlta
         '
-        Me.CbBorrar.AutoSize = True
-        Me.CbBorrar.Location = New System.Drawing.Point(7, 83)
-        Me.CbBorrar.Name = "CbBorrar"
-        Me.CbBorrar.Size = New System.Drawing.Size(54, 17)
-        Me.CbBorrar.TabIndex = 2
-        Me.CbBorrar.Text = "Borrar"
-        Me.CbBorrar.UseVisualStyleBackColor = True
+        Me.RbAlta.AutoSize = True
+        Me.RbAlta.Location = New System.Drawing.Point(18, 33)
+        Me.RbAlta.Name = "RbAlta"
+        Me.RbAlta.Size = New System.Drawing.Size(93, 17)
+        Me.RbAlta.TabIndex = 0
+        Me.RbAlta.TabStop = True
+        Me.RbAlta.Text = "Alta Empleado"
+        Me.RbAlta.UseVisualStyleBackColor = True
         '
         'LbCodEmple
         '
         Me.LbCodEmple.AutoSize = True
-        Me.LbCodEmple.Location = New System.Drawing.Point(206, 42)
+        Me.LbCodEmple.Location = New System.Drawing.Point(15, 112)
         Me.LbCodEmple.Name = "LbCodEmple"
         Me.LbCodEmple.Size = New System.Drawing.Size(108, 13)
         Me.LbCodEmple.TabIndex = 1
@@ -96,15 +103,16 @@ Partial Class GestionEmpleados
         '
         'TbCodEmple
         '
-        Me.TbCodEmple.Location = New System.Drawing.Point(347, 35)
+        Me.TbCodEmple.Location = New System.Drawing.Point(148, 109)
+        Me.TbCodEmple.MaxLength = 3
         Me.TbCodEmple.Name = "TbCodEmple"
         Me.TbCodEmple.Size = New System.Drawing.Size(103, 20)
-        Me.TbCodEmple.TabIndex = 2
+        Me.TbCodEmple.TabIndex = 9
         '
         'LbNombre
         '
         Me.LbNombre.AutoSize = True
-        Me.LbNombre.Location = New System.Drawing.Point(206, 72)
+        Me.LbNombre.Location = New System.Drawing.Point(312, 109)
         Me.LbNombre.Name = "LbNombre"
         Me.LbNombre.Size = New System.Drawing.Size(47, 13)
         Me.LbNombre.TabIndex = 3
@@ -113,7 +121,7 @@ Partial Class GestionEmpleados
         'LbApellido1
         '
         Me.LbApellido1.AutoSize = True
-        Me.LbApellido1.Location = New System.Drawing.Point(206, 102)
+        Me.LbApellido1.Location = New System.Drawing.Point(312, 143)
         Me.LbApellido1.Name = "LbApellido1"
         Me.LbApellido1.Size = New System.Drawing.Size(79, 13)
         Me.LbApellido1.TabIndex = 4
@@ -122,7 +130,7 @@ Partial Class GestionEmpleados
         'LbApellido2
         '
         Me.LbApellido2.AutoSize = True
-        Me.LbApellido2.Location = New System.Drawing.Point(206, 136)
+        Me.LbApellido2.Location = New System.Drawing.Point(312, 176)
         Me.LbApellido2.Name = "LbApellido2"
         Me.LbApellido2.Size = New System.Drawing.Size(93, 13)
         Me.LbApellido2.TabIndex = 5
@@ -131,7 +139,7 @@ Partial Class GestionEmpleados
         'LbDni
         '
         Me.LbDni.AutoSize = True
-        Me.LbDni.Location = New System.Drawing.Point(206, 169)
+        Me.LbDni.Location = New System.Drawing.Point(312, 210)
         Me.LbDni.Name = "LbDni"
         Me.LbDni.Size = New System.Drawing.Size(29, 13)
         Me.LbDni.TabIndex = 6
@@ -140,7 +148,7 @@ Partial Class GestionEmpleados
         'LbTelefono
         '
         Me.LbTelefono.AutoSize = True
-        Me.LbTelefono.Location = New System.Drawing.Point(206, 202)
+        Me.LbTelefono.Location = New System.Drawing.Point(312, 244)
         Me.LbTelefono.Name = "LbTelefono"
         Me.LbTelefono.Size = New System.Drawing.Size(52, 13)
         Me.LbTelefono.TabIndex = 7
@@ -148,62 +156,103 @@ Partial Class GestionEmpleados
         '
         'TbNombre
         '
-        Me.TbNombre.Location = New System.Drawing.Point(347, 65)
+        Me.TbNombre.Location = New System.Drawing.Point(453, 106)
+        Me.TbNombre.MaxLength = 20
         Me.TbNombre.Name = "TbNombre"
         Me.TbNombre.Size = New System.Drawing.Size(100, 20)
-        Me.TbNombre.TabIndex = 8
+        Me.TbNombre.TabIndex = 4
         '
         'TbApellido1
         '
-        Me.TbApellido1.Location = New System.Drawing.Point(347, 95)
+        Me.TbApellido1.Location = New System.Drawing.Point(453, 140)
+        Me.TbApellido1.MaxLength = 20
         Me.TbApellido1.Name = "TbApellido1"
         Me.TbApellido1.Size = New System.Drawing.Size(100, 20)
-        Me.TbApellido1.TabIndex = 9
+        Me.TbApellido1.TabIndex = 5
         '
         'TbApellido2
         '
-        Me.TbApellido2.Location = New System.Drawing.Point(347, 128)
+        Me.TbApellido2.Location = New System.Drawing.Point(453, 173)
+        Me.TbApellido2.MaxLength = 20
         Me.TbApellido2.Name = "TbApellido2"
         Me.TbApellido2.Size = New System.Drawing.Size(100, 20)
-        Me.TbApellido2.TabIndex = 10
+        Me.TbApellido2.TabIndex = 6
         '
         'TbDni
         '
-        Me.TbDni.Location = New System.Drawing.Point(347, 161)
+        Me.TbDni.Location = New System.Drawing.Point(453, 207)
+        Me.TbDni.MaxLength = 9
         Me.TbDni.Name = "TbDni"
         Me.TbDni.Size = New System.Drawing.Size(100, 20)
-        Me.TbDni.TabIndex = 11
+        Me.TbDni.TabIndex = 7
         '
         'TbTelefono
         '
-        Me.TbTelefono.Location = New System.Drawing.Point(347, 194)
+        Me.TbTelefono.Location = New System.Drawing.Point(453, 241)
+        Me.TbTelefono.MaxLength = 12
         Me.TbTelefono.Name = "TbTelefono"
         Me.TbTelefono.Size = New System.Drawing.Size(100, 20)
-        Me.TbTelefono.TabIndex = 12
+        Me.TbTelefono.TabIndex = 8
         '
         'BtAceptar
         '
-        Me.BtAceptar.Location = New System.Drawing.Point(322, 271)
+        Me.BtAceptar.Location = New System.Drawing.Point(393, 321)
         Me.BtAceptar.Name = "BtAceptar"
         Me.BtAceptar.Size = New System.Drawing.Size(75, 23)
-        Me.BtAceptar.TabIndex = 13
+        Me.BtAceptar.TabIndex = 12
         Me.BtAceptar.Text = "Aceptar"
         Me.BtAceptar.UseVisualStyleBackColor = True
         '
         'BtSalir
         '
-        Me.BtSalir.Location = New System.Drawing.Point(423, 271)
+        Me.BtSalir.Location = New System.Drawing.Point(494, 321)
         Me.BtSalir.Name = "BtSalir"
         Me.BtSalir.Size = New System.Drawing.Size(75, 23)
-        Me.BtSalir.TabIndex = 14
+        Me.BtSalir.TabIndex = 13
         Me.BtSalir.Text = "Salir"
         Me.BtSalir.UseVisualStyleBackColor = True
+        '
+        'LbNombreUser
+        '
+        Me.LbNombreUser.AutoSize = True
+        Me.LbNombreUser.Location = New System.Drawing.Point(15, 144)
+        Me.LbNombreUser.Name = "LbNombreUser"
+        Me.LbNombreUser.Size = New System.Drawing.Size(86, 13)
+        Me.LbNombreUser.TabIndex = 15
+        Me.LbNombreUser.Text = "Nombre Usuario:"
+        '
+        'LbContraUser
+        '
+        Me.LbContraUser.AutoSize = True
+        Me.LbContraUser.Location = New System.Drawing.Point(15, 179)
+        Me.LbContraUser.Name = "LbContraUser"
+        Me.LbContraUser.Size = New System.Drawing.Size(103, 13)
+        Me.LbContraUser.TabIndex = 16
+        Me.LbContraUser.Text = "Contraseña Usuario:"
+        '
+        'TbNombreUser
+        '
+        Me.TbNombreUser.Location = New System.Drawing.Point(148, 141)
+        Me.TbNombreUser.Name = "TbNombreUser"
+        Me.TbNombreUser.Size = New System.Drawing.Size(100, 20)
+        Me.TbNombreUser.TabIndex = 10
+        '
+        'TbContraUser
+        '
+        Me.TbContraUser.Location = New System.Drawing.Point(148, 176)
+        Me.TbContraUser.Name = "TbContraUser"
+        Me.TbContraUser.Size = New System.Drawing.Size(100, 20)
+        Me.TbContraUser.TabIndex = 11
         '
         'GestionEmpleados
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(520, 325)
+        Me.ClientSize = New System.Drawing.Size(599, 356)
+        Me.Controls.Add(Me.TbContraUser)
+        Me.Controls.Add(Me.TbNombreUser)
+        Me.Controls.Add(Me.LbContraUser)
+        Me.Controls.Add(Me.LbNombreUser)
         Me.Controls.Add(Me.BtSalir)
         Me.Controls.Add(Me.BtAceptar)
         Me.Controls.Add(Me.TbTelefono)
@@ -228,9 +277,6 @@ Partial Class GestionEmpleados
 
     End Sub
     Friend WithEvents GbEmple As System.Windows.Forms.GroupBox
-    Friend WithEvents CbBorrar As System.Windows.Forms.CheckBox
-    Friend WithEvents CbModificar As System.Windows.Forms.CheckBox
-    Friend WithEvents CbAlta As System.Windows.Forms.CheckBox
     Friend WithEvents LbCodEmple As System.Windows.Forms.Label
     Friend WithEvents TbCodEmple As System.Windows.Forms.TextBox
     Friend WithEvents LbNombre As System.Windows.Forms.Label
@@ -245,4 +291,11 @@ Partial Class GestionEmpleados
     Friend WithEvents TbTelefono As System.Windows.Forms.TextBox
     Friend WithEvents BtAceptar As System.Windows.Forms.Button
     Friend WithEvents BtSalir As System.Windows.Forms.Button
+    Friend WithEvents RbBorrar As System.Windows.Forms.RadioButton
+    Friend WithEvents RbModificar As System.Windows.Forms.RadioButton
+    Friend WithEvents RbAlta As System.Windows.Forms.RadioButton
+    Friend WithEvents LbNombreUser As System.Windows.Forms.Label
+    Friend WithEvents LbContraUser As System.Windows.Forms.Label
+    Friend WithEvents TbNombreUser As System.Windows.Forms.TextBox
+    Friend WithEvents TbContraUser As System.Windows.Forms.TextBox
 End Class

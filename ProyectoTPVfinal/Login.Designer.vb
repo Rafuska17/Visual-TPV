@@ -50,6 +50,7 @@ Partial Class Login
         'TBNomUser
         '
         Me.TBNomUser.Location = New System.Drawing.Point(165, 33)
+        Me.TBNomUser.MaxLength = 25
         Me.TBNomUser.Name = "TBNomUser"
         Me.TBNomUser.Size = New System.Drawing.Size(100, 20)
         Me.TBNomUser.TabIndex = 2
@@ -57,6 +58,7 @@ Partial Class Login
         'TBContraUser
         '
         Me.TBContraUser.Location = New System.Drawing.Point(165, 67)
+        Me.TBContraUser.MaxLength = 20
         Me.TBContraUser.Name = "TBContraUser"
         Me.TBContraUser.Size = New System.Drawing.Size(100, 20)
         Me.TBContraUser.TabIndex = 3
