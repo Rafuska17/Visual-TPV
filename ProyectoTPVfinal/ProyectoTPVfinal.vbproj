@@ -74,6 +74,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EliminarTpv.Designer.vb">
+      <DependentUpon>EliminarTpv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarTpv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GestionEmpleados.Designer.vb">
       <DependentUpon>GestionEmpleados.vb</DependentUpon>
     </Compile>
@@ -93,6 +105,12 @@
       <DependentUpon>MenuTpv.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="ModificarTpv.Designer.vb">
+      <DependentUpon>ModificarTpv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarTpv.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="ModProductos.vb" />
     <Compile Include="ModEmpleados.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -110,8 +128,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Producto.Designer.vb">
+      <DependentUpon>Producto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Producto.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestionEmpleados.resx">
       <DependentUpon>GestionEmpleados.vb</DependentUpon>
     </EmbeddedResource>
@@ -126,6 +153,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Producto.resx">
+      <DependentUpon>Producto.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

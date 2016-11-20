@@ -26,3 +26,14 @@ D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.vbpro
 D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\bin\Debug\LibreriaValidaciones.dll
 D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\bin\Debug\LibreriaValidaciones.pdb
 D:\DAM\DAM2\DI\TPV\Visual-TPV3\ProyectoTPVfinal\bin\Debug\LibreriaValidaciones.xml
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\bin\Debug\ProyectoTPVfinal.exe.config
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.exe
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.xml
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.pdb
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.GestionEmpleados.resources
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Login.resources
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.MenuTpv.resources
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Resources.resources
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.Producto.resources
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.vbproj.GenerateResource.Cache
+C:\Users\atcha\Desktop\REpositorio\ProyectoTPVfinal\obj\Debug\ProyectoTPVfinal.ProductoTpv.resources
