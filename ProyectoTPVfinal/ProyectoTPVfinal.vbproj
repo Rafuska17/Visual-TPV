@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EliminarTpv.Designer.vb">
+      <DependentUpon>EliminarTpv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EliminarTpv.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="GestionEmpleados.Designer.vb">
       <DependentUpon>GestionEmpleados.vb</DependentUpon>
     </Compile>
@@ -90,6 +102,12 @@
     </Compile>
     <Compile Include="MenuTpv.Designer.vb">
       <DependentUpon>MenuTpv.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificarTpv.Designer.vb">
+      <DependentUpon>ModificarTpv.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarTpv.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ModProductos.vb" />
@@ -117,6 +135,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GestionEmpleados.resx">
       <DependentUpon>GestionEmpleados.vb</DependentUpon>
     </EmbeddedResource>
