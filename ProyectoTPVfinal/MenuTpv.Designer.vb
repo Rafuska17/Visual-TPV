@@ -22,29 +22,65 @@ Partial Class MenuTpv
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.BtRealizarPedidos = New System.Windows.Forms.Button()
+        Me.BtHacerCaja = New System.Windows.Forms.Button()
+        Me.BtGestionarProductos = New System.Windows.Forms.Button()
+        Me.BtGestionarUsuarios = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
+        'BtRealizarPedidos
         '
-        Me.Button1.Location = New System.Drawing.Point(82, 23)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.BtRealizarPedidos.Location = New System.Drawing.Point(82, 52)
+        Me.BtRealizarPedidos.Name = "BtRealizarPedidos"
+        Me.BtRealizarPedidos.Size = New System.Drawing.Size(138, 23)
+        Me.BtRealizarPedidos.TabIndex = 0
+        Me.BtRealizarPedidos.Text = "Realizar pedido"
+        Me.BtRealizarPedidos.UseVisualStyleBackColor = True
         '
-        'Form1
+        'BtHacerCaja
+        '
+        Me.BtHacerCaja.Location = New System.Drawing.Point(82, 81)
+        Me.BtHacerCaja.Name = "BtHacerCaja"
+        Me.BtHacerCaja.Size = New System.Drawing.Size(138, 23)
+        Me.BtHacerCaja.TabIndex = 2
+        Me.BtHacerCaja.Text = "Hacer caja"
+        Me.BtHacerCaja.UseVisualStyleBackColor = True
+        '
+        'BtGestionarProductos
+        '
+        Me.BtGestionarProductos.Location = New System.Drawing.Point(82, 110)
+        Me.BtGestionarProductos.Name = "BtGestionarProductos"
+        Me.BtGestionarProductos.Size = New System.Drawing.Size(138, 23)
+        Me.BtGestionarProductos.TabIndex = 3
+        Me.BtGestionarProductos.Text = "Gestionar productos"
+        Me.BtGestionarProductos.UseVisualStyleBackColor = True
+        '
+        'BtGestionarUsuarios
+        '
+        Me.BtGestionarUsuarios.Location = New System.Drawing.Point(82, 139)
+        Me.BtGestionarUsuarios.Name = "BtGestionarUsuarios"
+        Me.BtGestionarUsuarios.Size = New System.Drawing.Size(138, 23)
+        Me.BtGestionarUsuarios.TabIndex = 4
+        Me.BtGestionarUsuarios.Text = "Gestionar usuarios"
+        Me.BtGestionarUsuarios.UseVisualStyleBackColor = True
+        '
+        'MenuTpv
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(284, 261)
-        Me.Controls.Add(Me.Button1)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(410, 339)
+        Me.Controls.Add(Me.BtGestionarUsuarios)
+        Me.Controls.Add(Me.BtGestionarProductos)
+        Me.Controls.Add(Me.BtHacerCaja)
+        Me.Controls.Add(Me.BtRealizarPedidos)
+        Me.Name = "MenuTpv"
+        Me.Text = "Menu"
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents BtRealizarPedidos As System.Windows.Forms.Button
+    Friend WithEvents BtHacerCaja As System.Windows.Forms.Button
+    Friend WithEvents BtGestionarProductos As System.Windows.Forms.Button
+    Friend WithEvents BtGestionarUsuarios As System.Windows.Forms.Button
 
 End Class
