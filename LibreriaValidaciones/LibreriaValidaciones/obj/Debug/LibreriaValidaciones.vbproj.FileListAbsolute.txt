@@ -1,0 +1,9 @@
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\bin\Debug\LibreriaValidaciones.dll
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\bin\Debug\LibreriaValidaciones.pdb
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\bin\Debug\LibreriaValidaciones.xml
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\obj\Debug\LibreriaValidaciones.Resources.resources
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\obj\Debug\LibreriaValidaciones.vbproj.GenerateResource.Cache
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\obj\Debug\LibreriaValidaciones.dll
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\obj\Debug\LibreriaValidaciones.xml
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\obj\Debug\LibreriaValidaciones.pdb
+D:\DAM\DAM2\DI\EjeciciosVs\LibreriaValidaciones\LibreriaValidaciones\obj\Debug\LibreriaValidaciones.vbprojResolveAssemblyReference.cache
